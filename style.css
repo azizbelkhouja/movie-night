@@ -44,3 +44,29 @@ main {
 .movie img {
     width: 100%;
 }
+.movie-info {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: .5px;
+}
+.movie-info h3 {
+    margin-top: 0;
+}
+.movie-info span {
+    background-color: var(--primary-color);
+    padding: .25rem .5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.movie-info span.green {
+    color: green;
+}
+.movie-info span.orange {
+    color: orange;
+}
+.movie-info span.red {
+    color: red;
+}
